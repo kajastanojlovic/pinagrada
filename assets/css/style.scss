@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+p{
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+
+/////////////////
+///RESPONSIVE///
+///////////////
+
+/*nagrade*/
+
+
+@media screen and(max-width:1109px){
+    #sekcija-kontakt{
+        .poruka{
+            #forma{
+                input[type="submit"]{
+                    width: 30%;
+                }
+            }
+            .kontakt{
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media screen and(max-width:845px){
+    #nagrade{
+        h2{
+            font-size: 25px;
+        }
+    }
+    #projekti {
+        .box1{
+            h2{font-size: 25px;}
+            #blok-projekata{
+                flex-wrap: wrap;
+                justify-content: space-around;
+                .blok{
+                width: 45%;
+                margin-bottom: 25px;
+            }
+        }
+        }
+    }
+   
+   
+}
+@media screen and (max-width: 769px){
+    #nagrade{
+        h2{
+            font-size: 20px;
+        }
+        #blok1{
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .nagrade1{
+                width: 75%;
+                margin-top: 50px;
+                &:first-child{
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+    #projekti {
+        .box1{
+            h2{font-size: 20px;}
+        }
+    }
+    
+}
+
+@media screen and(max-width:478px){
+    .column1{
+        flex-direction: column;
+    }
+    #nagrade{
+        #blok1{
+            .nagrade1{
+                .krug{
+                width: 80px;
+                height: 80px;
+                }
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 478px) {
+    #nagrade #blok1 .nagrade1 .krug {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #nagrade #blok1 .nagrade1 img {
+      width: 10px;
+      height: 10px;
+    }
+    #nagrade #blok1 .nagrade1 p {
+      margin-top: 50px;
+      font-size: 20px;
+    }
+  }
+
