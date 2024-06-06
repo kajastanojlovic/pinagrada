@@ -245,5 +245,77 @@ footer h3 {
   }
 }
 
+@media screen and (max-width: 478px) {
+  #nagrade #blok1 .nagrade1 .krug {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #nagrade #blok1 .nagrade1 img {
+    width: 10px;
+    height: 10px;
+  }
+  #nagrade #blok1 .nagrade1 p {
+    margin: 50px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+/* footer*/
+footer .container {
+  max-width: 100%;
+}
+
+footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  footer .col-md-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+  }
+}
+
+footer a {
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+footer a .icon-con {
+  margin-right: 8px;
+}
+
+@media (max-width: 460px) {
+  footer .col-12 {
+      margin-bottom: 20px;
+  }
+  
+  footer a {
+      word-wrap: break-word;
+      white-space: normal;
+  }
+}
+
+
+
+
+
+
+
+
+
 
 
